@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+
+/* NAV */
+.nav {
+    width: 100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-column-gap: 55px;
+    /* overflow-y: hidden; */
+    border: 2px solid black;
+    white-space: nowrap; 
+    
+    /* position: sticky;
+    top: 0; */
+}
+
+/* .nav-item {
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    width: 20vh;
+    /* flex-direction: row;
+    align-content: space-around;
+    align-items: center; */
+    /* padding: 5px 45px; */
+    /* align-content: center; */
+    /* position: relative; */}
+
+.logo {
+    height: 50px;
+}
+
+
+.nav1 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    grid-area: a;
+}
+
+.nav2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    /* align-self: center;
+    justify-self: center; */
+    grid-area: b;
+}
+
+.nav3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    /* align-self: center;
+    justify-self: center; */
+    grid-area: c;
+}
+
+.nav4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    align-self: center;
+    justify-self: center;
+    grid-area: d;
+}
+
+.nav5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    display: inline-grid;
+    border: 1px solid red;
+    height:100%;
+    /* align-self: center;
+    justify-self: center; */
+    grid-area: e;
+}
+
+/* HOME */
+
+.home-div {
+    position: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+}
+
+.home-img {
+    width: 80%;
+    height: 80%;
+}
+
+
+/* JUMP TO CONTENT */
+.skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+    
+a.skip:active, 
+a.skip:focus, 
+a.skip:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
+}
