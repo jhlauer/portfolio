@@ -8,6 +8,8 @@ body {
 p {
     font-size: 20px;
     margin: 0;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer {
