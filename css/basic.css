@@ -238,6 +238,7 @@ i {
     margin-right: 35px;
     height: 100%;
     align-content: center;
+    background-color: black;
 
 }
 
@@ -247,6 +248,7 @@ i {
     width: 50%;
     margin-left: 35px;
     height: 100%;
+    background-color: black;
 
 }
 
@@ -254,3 +256,17 @@ i {
     height: 100%;
     width: 100%;
 }
+
+.color img{
+    /* filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); */
+    /* -webkit-transition: all 1s ease; */
+    }
+    
+    .color img:hover{
+    box-shadow: 0 0 0 3px lightgrey;
+    opacity: 0.6;
+    /* transition: 1s ease; */
+    }
+    
+    
