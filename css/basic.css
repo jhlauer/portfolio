@@ -49,14 +49,26 @@ mark {
     background-color: rgb(177, 216, 241);
 }
 
+.mark2 {
+    background-color: rgb(255, 117, 170);
+}
+
 h1 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
+.title2 {
+    margin-bottom: 10px;
+}
+
 h2 {
     margin: 5px 0px;
     font-size: 20px;
+}
+
+h3 {
+    margin-top: 5px;
 }
 
 h4 {
@@ -114,12 +126,11 @@ a:active {
 
 .home {
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
     max-height: 50vh;
     max-width: 90vw;
     flex-flow: row nowrap;
     display: flex;
-
 }
 
 .row {
@@ -163,18 +174,40 @@ i {
 }
 
 .home-content {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-left: 45px;
     display: inline-flex;
     overflow: scroll;
     
 }
 
-.process {
+.home2 {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    max-height: 50vh;
+    max-width: 90vw;
+    flex-flow: row nowrap;
     display: flex;
+    align-content: space-between;
+
+}
+
+.process {
+    /* display: flex; */
+    text-align: right;
+    justify-content: right;
     float: right;
     height: 100%;
-    width: 50%;
+    width: 57%;
+    margin-right: 15px;
+    min-width: 700px;
+
+}
+
+.process-img {
+    width: 40%;
+    margin-left: 60px;
+    min-width: 588px;
 }
 
 
