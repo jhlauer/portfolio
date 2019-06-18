@@ -238,7 +238,7 @@ i {
     margin-right: 35px;
     height: 100%;
     align-content: center;
-    background-color: black;
+    background-color: rgb(126, 166, 240);
 
 }
 
@@ -248,7 +248,7 @@ i {
     width: 50%;
     margin-left: 35px;
     height: 100%;
-    background-color: black;
+    background-color: rgb(126, 166, 240);
 
 }
 
@@ -264,7 +264,7 @@ i {
     }
     
     .color img:hover{
-    box-shadow: 0 0 0 3px lightgrey;
+    box-shadow: 0 0 0 3px  rgb(126, 166, 240);
     opacity: 0.6;
     /* transition: 1s ease; */
     }
