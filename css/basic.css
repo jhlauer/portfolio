@@ -307,7 +307,7 @@ h3 {
     
     .color img:hover{
     box-shadow: 0 0 0 3px  rgb(126, 166, 240);
-    opacity: 0.6;
+    opacity: 0.8;
     /* transition: 1s ease; */
     }
     
