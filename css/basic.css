@@ -95,6 +95,14 @@ h4 {
     padding-top: 15px;
 }
 
+.nav-items a:hover {
+    border-bottom: 2px solid hotpink;
+  }
+  
+.nav-items a.active {
+    border-bottom: 3px solid hotpink;
+}
+
 .nav-item {
     margin: 0px 15px;
 }
