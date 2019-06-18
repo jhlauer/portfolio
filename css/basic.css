@@ -94,17 +94,40 @@ h4 {
 .nav-items {
     padding-top: 15px;
 }
-
-.nav-items a:hover {
-    border-bottom: 2px solid hotpink;
-  }
   
 .nav-items a.active {
     border-bottom: 3px solid hotpink;
 }
 
+.nav-items a:hover {
+    border-bottom: none;
+}
+
+.nav-items a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: hotpink;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .nav-items a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    }
+
 .nav-item {
     margin: 0px 15px;
+    position: relative;
+    text-decoration: none;
 }
 
 /* unvisited link */
@@ -121,12 +144,6 @@ color: black;
 /* mouse over link */
 a:hover {
 color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: hotpink;
-    text-decoration-line: underline double;
 }
 
 
@@ -254,9 +271,10 @@ h3 {
 }
 
 .home-work-left {
-    display: flex;
+    /* display: flex; */
     border: lightgrey solid 1px;
     width: 50%;
+    min-width: 622px;
     margin-right: 35px;
     height: 100%;
     align-content: center;
@@ -268,6 +286,7 @@ h3 {
     display: flex;
     border: lightgray solid 1px;
     width: 50%;
+    min-width: 622px;
     margin-left: 35px;
     height: 100%;
     background-color: rgb(126, 166, 240);
