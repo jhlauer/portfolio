@@ -191,11 +191,10 @@ i {
 
 .home-img {
     width: 75%;
-    max-height: 50vh;
+    height: 50vh;
+    max-height: 378px;
     max-width: 842px;
     display: inline;
-    min-width: 700px;
-    min-height: 372px;
 }
 
 .home-content {
