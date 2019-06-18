@@ -67,9 +67,7 @@ h2 {
     font-size: 20px;
 }
 
-h3 {
-    margin-top: 5px;
-}
+
 
 h4 {
     font-weight: 200;
@@ -211,8 +209,24 @@ i {
     max-height: 369px;
 }
 
+.title3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 
 /* DESIGN */
+
+.breadcrumbs {
+    display: inline-flex;
+}
+
+h3 {
+    margin-top: 5px;
+    color: lightgrey;
+    font-weight: 200;
+    margin-right: 15px;
+}
 
 .home-work-container {
     display: flex;
