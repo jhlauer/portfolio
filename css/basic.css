@@ -310,11 +310,12 @@ h3 {
     position: relative;
 }
 
+.hov {
+    opacity: 0.8;
+}
 
-/* 
-.color img:hover{
-opacity: 0.7;
-transition: 1s ease;
-/* }
+.hov:hover{
+    opacity: 1;
+}
     
     
