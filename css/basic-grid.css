@@ -13,10 +13,13 @@ p {
 
 
 /* NAV */
+
 .logo {
     justify-content: end;
     float: right;
     margin: 0px 50px;
+    width: 15vw;
+    min-width: 175px;
 }
 
 .nav {
