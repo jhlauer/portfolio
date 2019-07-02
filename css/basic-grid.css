@@ -109,18 +109,6 @@ color: yellow;
 }
 
 
-
-.contact-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
-    grid-auto-rows: minmax(100px, auto);
-    height: 950px;
-    margin-bottom: 0px;
-
-}
-
 .ux-img {
     max-height: 100%;
     max-width: 100%;
@@ -362,45 +350,58 @@ mark {
 }
 
 /* CONTACT */
+
+
+
+.contact-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    height: 950px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .cone {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
     background: pink;
 }
 .ctwo {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
     background: black;
 }
 
 .cthree {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 3 / 4;
     background: yellow;
 }
 
 .cfour{
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 4/ 5;
     background:  rgb(4, 76, 231);
 }
 
 
 .cfive {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 5 / 6;
     background: red;
 }
 
 .csix {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 6 / 7;
     background:rgb(235, 235, 235);
 }
 
 .cseven {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 7 / 8;
     background: black;
-    border: 1px solid red;
 }
