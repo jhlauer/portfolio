@@ -28,6 +28,7 @@ p {
     height: 100vh;
     min-width: 245px;
     padding-top: 150px;
+    background-color: white;
 }
 
 .sticky-nav {
@@ -106,6 +107,7 @@ color: yellow;
     grid-auto-rows: minmax(100px, auto);
     height: 1050px;
     margin-bottom: 0px;
+
 }
 
 
@@ -286,6 +288,8 @@ mark {
     grid-auto-rows: minmax(100px, auto);
     height: 1050px;
     margin-bottom: 0px;
+    object-fit: cover;
+
 }
 
 .fone {
@@ -293,22 +297,27 @@ mark {
     grid-row: 1 / 3;
     max-width: 100%;
     overflow: scroll;
+    object-fit: cover;
 }
 .ftwo {
     grid-column: 3 / 5;
     grid-row: 3 / 5;
+    padding-right: 10px;
+    object-fit: cover;
 }
 
 .fthree {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
     background: yellow;
+    object-fit: cover;
 }
 
 .ffive {
     padding-right: 20px;
     grid-column: 3 / 5;
     grid-row: 1 / 3;
+    object-fit: cover;
 }
 
 
@@ -316,12 +325,14 @@ mark {
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background: black;
+    object-fit: cover;
 }
 
 .process-content {
-    padding-top: 10px;
     padding-left: 20px;
     text-align: justify;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .gif {
@@ -358,57 +369,10 @@ mark {
 
 /* CONTACT */
 
-
-
-.contact-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
-    grid-auto-rows: minmax(100px, auto);
-    height: 950px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.cone {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    background: pink;
-}
-.ctwo {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    background: black;
-}
-
-.cthree {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    background: yellow;
-}
-
-.cfour{
-    grid-column: 1 / 2;
-    grid-row: 4/ 5;
-    background:  rgb(4, 76, 231);
-}
-
-
 .cfive {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
-    background: red;
+    z-index: 1;
+    grid-column: 1 / 5;
+    grid-row: 5;
+    background-color:white;
 }
 
-.csix {
-    grid-column: 1 / 2;
-    grid-row: 6 / 7;
-    background:rgb(235, 235, 235);
-}
-
-.cseven {
-    grid-column: 1 / 2;
-    grid-row: 7 / 8;
-    background: black;
-}
