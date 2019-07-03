@@ -241,6 +241,7 @@ color: yellow;
     background-color: black;
     color: black;
     text-align: center;
+    justify-content: center;
     position:fixed;
     left:0px;
     bottom:0px;
@@ -250,8 +251,12 @@ color: yellow;
 }
 
 .foot-content {
+    position: absolute;
     width: 20vw;
+    min-width: 216px;
     color: white;
+    left:0px;
+    bottom:0px;
 }
 
 .footnote {
