@@ -265,8 +265,8 @@ color: yellow;
     position:fixed;
     left:0px;
     bottom:0px;
-    width:100%;
-    max-width: 336px;
+    width:20vw;
+    max-width: 340px;
     padding-top: 30px;
 }
 
@@ -308,50 +308,71 @@ mark {
 .ab-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
-    grid-auto-rows: minmax(100px, auto);
-    height: 1050px;
-    margin-bottom: 0px;
-    object-fit: cover;
-
+    padding-top: 75px;
+    /* border: 1px solid red; */
 }
 
 .fone {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
+    grid-column: 3 / 5;
+    grid-row: 1/2;
     max-width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     object-fit: cover;
+    padding-top: 60px;
+    padding-right: 35px;
 }
 .ftwo {
-    grid-column: 3 / 5;
-    grid-row: 3 / 5;
-    padding-right: 10px;
+    grid-column: 1 / 2;
+    grid-row: 1/2;
     object-fit: cover;
 }
 
 .fthree {
-    grid-column: 1 / 2;
-    grid-row: 3 / 5;
+    grid-column: 2 / 3;
+    grid-row: 1/2;
     background: yellow;
     object-fit: cover;
 }
 
+.ffour {
+    margin-top: 42px;
+    background: yellow;
+    grid-column: 1 / 2;
+    grid-row: 2/3;
+}
+
 .ffive {
-    padding-right: 20px;
-    grid-column: 3 / 5;
-    grid-row: 1 / 3;
-    object-fit: cover;
-}
-
-
-.fnine {
+    margin-top: 42px;
+    background: yellow;
     grid-column: 2 / 3;
-    grid-row: 3 / 5;
-    background: black;
-    object-fit: cover;
+    grid-row: 2/3;
 }
+
+.fsix {
+    margin-top: 42px;
+    background: yellow;
+    grid-column: 3 / 4;
+    grid-row: 2/3;
+}
+
+.fseven {
+    margin-top: 42px;
+    background: yellow;
+    grid-column: 4 / 5;
+    grid-row: 2/3;
+}
+
+.long {
+    object-position: 18%;
+}
+
+.tall {
+    object-position: left 20%;
+    padding-top: 50px;
+}
+
 
 .process-content {
     padding-left: 20px;
@@ -390,8 +411,17 @@ mark {
     text-align: justify;
 }
 
+.me2 {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
 .story {
     text-align: right;
+}
+
+.story-2 {
+    text-align: left;
 }
 
 /* CONTACT */
