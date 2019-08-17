@@ -129,7 +129,6 @@ color: yellow;
 
 }
 
-
 .ux-img {
     max-height: 100%;
     max-width: 100%;
@@ -142,6 +141,14 @@ color: yellow;
     display: block;
 }
 
+.container img {
+    transition: transform .5s ease;
+  }
+
+.container:hover img {
+transform: scale(1.2);
+}
+
 .top {
     object-position: top;
 }
@@ -150,24 +157,13 @@ color: yellow;
     object-position: 25% 100%;
 }
 
-
 .container {
     position: relative;
+    height: 100%; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .2s ease;
-    background-color: black;
-}
-
+/* 
 .text {
     color: black;
     font-size: 20px;
@@ -178,7 +174,8 @@ color: yellow;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+    border: 6px solid purple;
+  } */
 
 .page {
     color:white;
@@ -192,14 +189,6 @@ color: yellow;
     color: yellow;
     opacity: 1;
 }
-
-.container:hover .overlay {
-    opacity: .9;
-  }
-
-  .container:hover .text {
-      opacity: 1;
-  }
 
 
 .one {
