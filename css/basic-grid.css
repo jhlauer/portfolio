@@ -217,7 +217,7 @@ transform: scale(1.2);
 
 .footnote {
     display: inline;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .icon {
@@ -409,5 +409,28 @@ mark {
     border-bottom: 6px solid yellow;
     color: black;
 } 
+
+.pgfooter {
+    height: 20vh;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    left:0px;
+    bottom:0px;
+    width:1000vw;
+}
+
+.pgfoot-content {
+    padding-top: 20px;
+    width: 100vw;
+    color: white;
+    left:0px;
+    bottom:0px;
+}
+
+.pgfootnote {
+    display: inline;
+    font-weight: 400;
+}
 
 
