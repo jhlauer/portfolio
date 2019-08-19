@@ -1,8 +1,10 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: "Roboto Mono", "Trebuchet MS", Arial, sans-serif;
-    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
 
 p {
     font-size: 17px;
@@ -133,6 +135,14 @@ transform: scale(1.2);
     object-position: 25% 100%;
 }
 
+.mover {
+    object-position: 20% 25%;
+}
+
+.mich {
+    object-fit: contain;
+}
+
 .container {
     position: relative;
     height: 100%; /* [1.1] Set it as per your need */
@@ -246,15 +256,13 @@ mark {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
-    padding-top: 75px;
 }
 
 .fone {
     grid-column: 3 / 5;
     grid-row: 1/2;
     max-width: 100%;
-    object-fit: cover;
-    padding-top: 13px;
+    /* object-fit: cover; */
     padding-right: 35px;
 }
 .ftwo {
@@ -274,7 +282,7 @@ mark {
     margin-top: 42px;
     background:  grey;
     grid-column: 1 / 2;
-    grid-row: 2/3;
+    grid-row: 2 / 3;
 }
 
 .ffive {
@@ -307,16 +315,9 @@ mark {
     padding-top: 50px;
 }
 
-
 .process-content {
     padding-left: 20px;
     text-align: justify;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-.gif {
-    padding-left: 20px;
 }
 
 .step {
@@ -326,26 +327,15 @@ mark {
     font-weight: 900;
 }
 
-
 .loop {
     font-size: 18px;
     padding-right: 35px;
     padding-bottom: 0px;
 }
 
-.story-content {
-    padding-top: 20px;
-}
-
 .me {
     font-size: 17px;
-    padding-bottom: 0px;
     text-align: justify;
-}
-
-.me2 {
-    font-size: 17px;
-    padding-bottom: 15px;
 }
 
 .story {
@@ -354,12 +344,14 @@ mark {
 
 .story-2 {
     text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 /* PAGE */
 .page-nav{
-    height: 10vh;
-    width: 100vw;
+    height: 8vh;
+    width: 95vw;
     background-color: white;
     text-align: center;
     padding-top: 20px;
@@ -369,24 +361,35 @@ mark {
 .pgnav-item {
     text-decoration: none;
     color: black;
-    margin: 10px 50px;
-    border-bottom: none
+    margin: 10px 0px;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+hr {
+    border: .5px solid black;
+    margin-bottom: 20px;
 }
 
 .pgleft {
     float: left;
-    margin-left: 50px;
 }
 
 .pgright {
     float: right;
+    margin: 10px 40px;
+}
+
+.end {
+    float: right;
+    margin: 10px 0px;
+    margin-right: 10px;
 }
 
 .logo2 {
-    width: 20vw;
+    width: 10vw;
     min-width: 280px;
-    margin-left: 170px;
-    margin-right: 50px;
+    margin-left: 150px;
 }
 
 .pgnav-item:before {
@@ -417,7 +420,8 @@ mark {
     justify-content: center;
     left:0px;
     bottom:0px;
-    width:1000vw;
+    width:100vw;
+    margin-top: 15px;
 }
 
 .pgfoot-content {
