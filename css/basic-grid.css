@@ -8,7 +8,7 @@ main {
 p {
     font-size: 17px;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 h2 {
@@ -347,7 +347,7 @@ transform: scale(1.2);
 }
 
 .jump {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .jumpto-nav {
@@ -357,4 +357,6 @@ transform: scale(1.2);
 
 .jumpto-nav-item {
     display: inline;
+    color: black;
+    text-decoration: none;
 }
