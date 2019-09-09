@@ -57,6 +57,10 @@ hr {
     margin-bottom: 30px;
 }
 
+.smallhr {
+    margin-top: 40px;
+}
+
 .pgleft {
     float: left;
 }
@@ -340,4 +344,17 @@ transform: scale(1.2);
 
 .ibm2 {
     width: 250px;
+}
+
+.jump {
+    margin-bottom: 5px;
+}
+
+.jumpto-nav {
+    display: inline;
+    justify-content: space-between;
+}
+
+.jumpto-nav-item {
+    display: inline;
 }
