@@ -64,7 +64,7 @@ hr {
 }
 
 .smallhr {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .pgleft {
@@ -353,7 +353,7 @@ transform: scale(1.2);
 }
 
 .jump {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .jumpto-nav {
@@ -373,7 +373,33 @@ transform: scale(1.2);
     justify-items: center;
 }
 
-.maincontent {
+.headcontent {
     justify-content: center;
     text-align: center;
+}
+
+.maincontent {
+    margin: 10px 50px;
+}
+
+.info {
+    display: block;
+    padding: 5px 0px;
+    
+}
+
+.info-item {
+    display: inline;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.smright {
+    margin-left: 58px;
+}
+
+.context {
+    margin-left: 25%;
 }
